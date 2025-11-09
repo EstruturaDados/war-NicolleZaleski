@@ -96,3 +96,35 @@ int main() {
 
 // limparBufferEntrada():
 // Função utilitária para limpar o buffer de entrada do teclado (stdin), evitando problemas com leituras consecutivas de scanf e getchar.
+
+
+
+//O que fazer no nível mestre:
+//.Vamos adicionar as funções estratégicas
+//.Modularizar completamente o código (organizar em funções):
+//  - Função para alocar memória o mapa;
+//  - Função para cadastrar os territórios;
+//  - Função para exibir o mapa;
+//.A função main vai se transformar no general; apenas dá as ordens
+//.Refinar os ponteiros (passar para modificar o ponteiro (*nomedoponteiro)
+// ou apenas visualizar o valor)
+//.Fazer ataques estratégicos
+
+///////O que fazer:
+//.Modularizar completamente o código
+//.Criar sistema de missões (destruir determinada cor, conquistar x
+//territórios)
+//.Implementar uma função que sorteia uma missão no início do jogo
+//.Criar função Verificatória — Vai analisar o mapa e determinar se as
+//condições da sua missão foram cumpridas
+
+
+//.Escolher quantos territórios tem
+//.Cadastrar os territórios
+//.Mostrar o mapa
+//.Sortear a missão: 
+//          exemplo: Sua missão (exercito cor): (missão)
+//.Menu de ações: (atacar, verificar missão, sair) e escolher opção
+//.Fase de ataque
+//.Resultado da batalha
+//.Repetir a missão até ela ser concretizada

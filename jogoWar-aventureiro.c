@@ -145,4 +145,3 @@ int main() {
     printf("Memória liberada com sucesso!!");
     return 0;
 }
-
